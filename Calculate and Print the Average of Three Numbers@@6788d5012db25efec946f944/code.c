@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    int num1, num2, num3, sum, average;
+    int num1, num2, num3, sum;
+    double average;
 
     scanf("%d %d %d", num1, num2, num3);
     sum = num1+num2+num3;
