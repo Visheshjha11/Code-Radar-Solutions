@@ -3,11 +3,11 @@
 int main() {
   float num1, num2, product;
 
-  
-  scanf("%.2f, %.2f", &num1, num2);
-  product = num1*num2;
+  scanf("%f %f", &num1, &num2);  // Corrected scanf format string
 
-  printf("Product: %.2f", product);
+  product = num1 * num2;
+
+  printf("Product: %.2f\n", product); //Keep the "%.2f" formatting here for the desired output
 
   return 0;
 }
