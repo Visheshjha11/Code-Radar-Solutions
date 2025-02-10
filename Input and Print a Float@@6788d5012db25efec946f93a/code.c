@@ -1,7 +1,8 @@
 #include <stdio.h>
-int main(){
+
+int main() {
     float a;
-    scanf("%f",&a);
-    printf("%f",a);
+    scanf("%f", &a);
+    printf("%.2f", a); // Print with 2 decimal places
     return 0;
 }
