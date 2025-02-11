@@ -10,7 +10,7 @@ int main(){
         printf("Lowercase");
     }
     else{
-        pritf("Invalid input");
+        printf("Invalid input");
     }
     return 0;
 }
