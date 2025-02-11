@@ -1,4 +1,4 @@
-#include <stdiio.h>
+#include <stdio.h>
 int main(){
     int num1, num2, and_operator;
     scanf("%d %d", &num1, &num2);
