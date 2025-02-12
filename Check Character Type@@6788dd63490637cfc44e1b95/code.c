@@ -9,10 +9,10 @@ int main(){
             printf("Vowel");
            }
         else{
-            printf("Consonanat");
+            printf("Consonant");
         }
     }
-    else if(ch>='0' && ch<='10'){
+    else if(ch>='0' && ch<='9'){
         printf("Digit");
     }
     else{
