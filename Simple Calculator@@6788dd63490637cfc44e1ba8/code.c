@@ -3,7 +3,7 @@ int main(){
     int num1, num2;
     char ch;
     scanf("%d %d", &num1, &num2);
-    get char(); 
+    getchar(); 
     scanf("%c", &ch);
     if(ch=='+'){
         printf("%d", num1+num2);
