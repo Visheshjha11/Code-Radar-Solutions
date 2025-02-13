@@ -21,7 +21,7 @@ int main() {
     } 
     else if (ch == '/') {
         if (num2 == 0) {
-            printf("Error");
+            printf("error");
         } else {
             printf("%d", num1 / num2);
         }
