@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &num);
     scanf("%d", &complement);
 
-    result = num ^ shift;
+    result = num ~ shift;
     printf("%d\n", result);
 
     return 0;
