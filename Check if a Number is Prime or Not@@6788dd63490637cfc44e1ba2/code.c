@@ -1,4 +1,8 @@
 #include <stdio.h>
 int main(){
-    int 
+    int num;
+    scanf("%d", &num);
+
+    printf("Prime");
+    return 0;
 }
