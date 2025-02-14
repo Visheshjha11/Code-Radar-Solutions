@@ -15,8 +15,11 @@ int main(){
     else if(ch=='B'){
         printf("Good");
     }
-    else{
+    else if(ch=='F'){
         printf("Fail");
+    }
+    else{
+        printf("Invalid grade");
     }
     return 0;
 }
