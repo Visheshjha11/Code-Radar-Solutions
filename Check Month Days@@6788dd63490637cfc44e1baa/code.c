@@ -42,7 +42,7 @@ int main() {
             printf("31\n");
             break;
         default:
-            printf("Invalid month number! Please enter a number between 1 and 12.\n");
+            printf("Invalid\n");
     }
     
     return 0;
