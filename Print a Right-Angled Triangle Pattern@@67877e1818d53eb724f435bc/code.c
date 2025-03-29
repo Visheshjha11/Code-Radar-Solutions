@@ -4,10 +4,11 @@ pattern_triangle(int n){
         for(int j=1; j<=i; j++){
             printf("* ");
         }
-        printf("\n")
+        printf("\n");
     }
 }
 int main(){
+    int n;
     scanf("%d", &n);
     pattern_triangle(n);
     return 0;
