@@ -6,5 +6,6 @@ int main(){
         printf("*");
     }else if(n==2){
         printf(" *\n***");
-    }
+    }else if(n==2){
+        printf(" *\n ***\n****");
 }
