@@ -1,12 +1,24 @@
 #include <stdio.h>
-int main(){
-    int n;
-    scanf("%d", &n);
-    if(n==1){
-        printf("*");
-    }else if(n==2){
-        printf(" *\n***");
-    }else if(n==3){
-        printf("  *\n ***\n*****");
+
+int main() {
+    int rows, i, j, space;
+    scanf("%d", &rows);
+    
+    // Print the pyramid pattern
+    for (i = 1; i <= rows; i++) {
+        // Print spaces
+        for (space = 1; space <= rows - i; space++) {
+            printf(" ");
+        }
+        
+        // Print stars
+        for (j = 1; j <= 2 * i - 1; j++) {
+            printf("*");
+        }
+        
+        // Move to the next line
+        printf("\n");
     }
+    
+    return 0;
 }
